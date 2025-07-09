@@ -48,8 +48,8 @@ All major scripts support command-line arguments for reproducibility and modular
 For example:
 
 ```bash
-python src/analysis/braak5_threshold.py --threshold 0.2 --plot
-python experiments/full_model_comparison.py --save
+python3 -m src.analysis.braak5_threshold --threshold 0.2 --plot
+python3 -m src.experiments.full_model_comparison.py --save
 ```
 
 ---
