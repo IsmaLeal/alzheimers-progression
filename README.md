@@ -58,16 +58,16 @@ python3 -m src.experiments.full_model_comparison.py --save
 
 ```bash
 # Compare all four models
-python experiments/full_model_comparison.py
+python3 -m src.experiments.full_model_comparison
 
 # Show Laplacian evolution over time
-python src/visualisation/laplacian_heatmaps_plot.py
+python3 -m src.visualisation.laplacian_evolution
 
 # Analyse when Braak V activates under FKPP + clearance
-python src/analysis/braak5_threshold.py --threshold 0.15 --plot
+python3 -m src.analysis.braak5_threshold --threshold 0.15 --plot
 
 # Plot regime differences
-python src/analysis/regimes_plot.py
+python3 -m src.analysis.regimes_plot.py
 ```
 
 ---
@@ -118,14 +118,8 @@ These were preprocessed and loaded automatically in `src/data/preprocessing.py`.
 ## 💡 Credits and Notes
 
 - Scientific basis: Prion-like propagation, FKPP PDEs, Braak staging
-- Developed as part of a mathematical modelling case study
+- Developed as part of a MSc mathematical modelling case study at the University of Oxford
+- This project was guided by brilliantly guided by Dr. Georgia Brennan
 - All visual styles follow a clean serif + LaTeX look, tuned for publication-ready plots
 
 ---
-
-## 🧼 To Do / Ideas
-
-- Add parameter sweeps for robustness testing
-- Animate Laplacian evolution
-- Export plots directly to PDF
-- Expand to include PET scan comparisons
