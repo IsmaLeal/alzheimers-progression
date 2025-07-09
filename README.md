@@ -16,12 +16,12 @@ The models are based on the **FKPP (Fisher–Kolmogorov)** framework and explore
 alzheimers-progression/
 │
 ├── src/
-│   ├── analysis/               # Experiments focused on Braak staging & timing
+│   ├── analysis/               # Experiments and analyses done in the project
 │   ├── data/                   # Data loading & pre-processing
 │   ├── models/                 # Mathematical model definitions & runners
 │   └── visualisation/          # Graphical representations and animations
+│   ├── experiments/            # Experiments reproducing paper figures
 │
-├── experiments/                # Top-level experiments reproducing paper figures
 ├── databases/                 # Connectivity & anatomical data (CSV)
 ├── results/                   # Output plots when using --save
 ├── README.md
