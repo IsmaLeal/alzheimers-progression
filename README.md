@@ -26,6 +26,7 @@ alzheimers-progression/
 ├── results/                   # Output plots when using --save
 ├── README.md
 ├── requirements.txt
+├── LICENSE
 └── .gitignore
 ```
 
