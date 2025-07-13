@@ -58,6 +58,11 @@ python3 -m src.experiments.full_model_comparison.py --save
 ## ▶️ Example Usage
 
 ```bash
+# Create a virtual environment to satisfy all requirements
+python3 -m venv .env
+source .env/bin/activate
+pip install -r requirements.txt
+
 # Compare all four models
 python3 -m src.experiments.full_model_comparison
 
