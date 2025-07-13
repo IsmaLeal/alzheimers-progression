@@ -6,7 +6,7 @@
 
 This repository implements and visualizes network-based models of pathological tau protein spread across the human brain, simulating Alzheimer’s progression through a variety of biophysically and clinically informed regimes.
 
-The models are based on the **FKPP (Fisher–Kolmogorov)** framework and explore the effects of clearance, volume-based scaling, and Laplacian reweighting through non-linear damage mechanisms.
+The models are based on the **FKPP (Fisher–Kolmogorov)** framework and explore (i) the effects of brain clearance, and (ii) Laplacian reweighting to account for neural damage.
 
 ---
 
