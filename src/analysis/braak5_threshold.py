@@ -108,7 +108,7 @@ def main():
                         help="Show plot of concentration and activation threshold")
     args = parser.parse_args()
 
-    arrival_time, total_c = analyse_braakV_activation(
+    arrival_time, total_c = analyse_braak5_activation(
         activation_threshold=args.threshold,
         c0=args.c0,
         l0=args.l0,

@@ -12,6 +12,7 @@ __pycache__/
 # Virtual environment
 venv/
 .env/
+env/
 
 # OS files
 .DS_Store
@@ -21,9 +22,6 @@ Thumbs.db
 *.log
 *.aux
 *.out
-
-# Results or generated images
-results/
 
 # Plotly temp files
 temp-plot.html
