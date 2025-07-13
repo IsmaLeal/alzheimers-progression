@@ -55,14 +55,30 @@ python3 -m src.experiments.full_model_comparison.py --save
 
 ---
 
+## 📦 Installation
+
+1. Clone the repo:
+   ```bash
+   git clone git@github.com:IsmaLeal/alzheimers-progression.git
+   cd alzheimers-progression
+   ```
+
+2. Set up a virtual environment:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # or .\.venv\Scripts\activate on Windows
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
 ## ▶️ Example Usage
 
 ```bash
-# Create a virtual environment to satisfy all requirements
-python3 -m venv .env
-source .env/bin/activate
-pip install -r requirements.txt
-
 # Compare all four models
 python3 -m src.experiments.full_model_comparison
 
@@ -74,9 +90,6 @@ python3 -m src.analysis.braak5_threshold --threshold 0.15 --plot
 
 # Plot regime differences
 python3 -m src.analysis.regimes_plot.py
-
-# Close virtual environment
-deactivate
 ```
 
 ---
@@ -90,27 +103,6 @@ deactivate
 
 ---
 
-## 📦 Installation
-
-1. Clone the repo:
-   ```bash
-   git clone git@github.com:IsmaLeal/alzheimers-progression.git
-   cd alzheimers-progression
-   ```
-
-2. Set up a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # or .\venv\Scripts\activate on Windows
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
-
 ## 📁 Data
 
 CSV files under `databases/` provide:
@@ -120,7 +112,7 @@ CSV files under `databases/` provide:
 - 3D coordinates for plotting
 - Braak staging node definitions
 
-These were preprocessed and loaded automatically in `src/data/preprocessing.py`.
+These are preprocessed and loaded automatically in `src/data/preprocessing.py`.
 
 ---
 
@@ -128,7 +120,7 @@ These were preprocessed and loaded automatically in `src/data/preprocessing.py`.
 
 - Scientific basis: Prion-like propagation, FKPP PDEs, Braak staging
 - Developed as part of a MSc mathematical modelling case study at the University of Oxford
-- This project was guided by brilliantly guided by Dr. Georgia Brennan
-- All visual styles follow a clean serif + LaTeX look, tuned for publication-ready plots
+- This project was brilliantly guided by Dr. Georgia Brennan
+- All visual styles follow a clean serif + LaTeX look
 
 ---
