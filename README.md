@@ -74,6 +74,9 @@ python3 -m src.analysis.braak5_threshold --threshold 0.15 --plot
 
 # Plot regime differences
 python3 -m src.analysis.regimes_plot.py
+
+# Close virtual environment
+deactivate
 ```
 
 ---
